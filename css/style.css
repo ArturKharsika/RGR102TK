@@ -39,17 +39,20 @@ a:hover {
 .navbar-brand {
     color: var(--bs-navbar-color) !important;
     font-weight: 700;
+    text-decoration: none !important;
 }
 
 .navbar-nav .nav-link {
-    color: var(--bs-navbar-color) !important;
+    color: var(--bs-white) !important;
     font-weight: 500;
     margin: 0 0.8rem;
     transition: color 0.2s ease;
 }
 
 .navbar-nav .nav-link:hover {
-    color: var(--bs-primary) !important;
+    background: var(--bs-primary) !important;
+    border-radius: 10px;
+    text-decoration: none !important;
 }
 
 .navbar-toggler {
@@ -61,7 +64,7 @@ a:hover {
 }
 
 #hero {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://kpi.ua/files/images-story/k-1-summer.jpg') no-repeat center center/cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/KPI.jpg") no-repeat center center/cover;
     color: var(--bs-white);
     padding: 8rem 0;
     text-align: center;

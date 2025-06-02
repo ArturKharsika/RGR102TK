@@ -161,7 +161,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 if (query) {
                     window.location.href = 'universities.html?search=' + encodeURIComponent(query);
                 } else {
-                    alert('Будь ласка, введіть пошуковий запит.');
+                    window.location.href = 'universities.html';
                 }
             });
             universitySearchMain.addEventListener('keyup', function(event) {
